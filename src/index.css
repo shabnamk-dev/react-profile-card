@@ -1,0 +1,60 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.299);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  background: linear-gradient(hsl(178, 89%, 47%), hsl(279, 94%, 44%));
+  transition: 0.3s ease;
+}
+
+.card:hover{
+  background: linear-gradient(hsl(178, 89%, 37%), hsl(279, 94%, 34%));
+}
+
+.card .card-Img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family:Arial, sans-serif;
+  margin:0;
+  color: hsl(0, 0%, 10%);
+
+
+}
+
+.card .card-text{
+  font-family:Arial, sans-serif;
+  color:  hsl(0, 0%, 10%);
+}
+
+
+.card .buttons{
+  margin-left: 20px;
+  color: hsla(0, 74%, 5%, 0.866);
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-weight:bold;
+  background-color: hsl(254, 54%, 50%);
+  box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.397);
+  padding: 5px;
+  text-decoration: none;
+}
+
+.card .buttons:hover{
+  background-color: hsl(254, 54%, 40%);
+}
